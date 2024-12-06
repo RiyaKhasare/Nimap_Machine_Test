@@ -53,9 +53,9 @@ The application supports server-side pagination for both categories and products
 1. Clone the repository.
 2. Configure MySQL database in `src/main/resources/application.properties`:
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/product_category_db
-    spring.datasource.username=<your-username>
-    spring.datasource.password=<your-password>
+    spring.datasource.url=jdbc:mysql://localhost:3306/machine_test
+    spring.datasource.username=root
+    spring.datasource.password=mysql#
     spring.jpa.hibernate.ddl-auto=update
     server.port=8081
     ```
